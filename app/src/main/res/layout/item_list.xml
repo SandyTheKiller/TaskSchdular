@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/iron"
+    android:padding="@dimen/SIZE_5">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        app:cardCornerRadius="@dimen/SIZE_5"
+        app:cardElevation="@dimen/SIZE_5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/SIZE_5"
+                    android:text="@string/zone"
+                    android:textColor="@color/primary_dark"
+                    android:textSize="@dimen/TEXT_SIZE_16" />
+
+                <TextView
+                    android:id="@+id/txt_zone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/SIZE_5"
+                    android:layout_weight="1"
+                    android:padding="@dimen/SIZE_5"
+                    android:text="Mumbai"
+                    android:textColor="@color/white_greyish"
+                    android:textSize="@dimen/TEXT_SIZE_16" />
+                <!-- <TextView
+                     android:id="@+id/txt_date"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:ellipsize="end"
+                     android:padding="@dimen/SIZE_5"
+                     android:layout_gravity="end"
+                     android:text="@string/Date"
+                     android:textColor="#b1b0b0"
+                     android:textSize="@dimen/TEXT_SIZE_16" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/SIZE_5"
+                    android:text="@string/vehicle_no"
+                    android:textColor="@color/oil"
+                    android:textSize="@dimen/TEXT_SIZE_14" />
+
+                <TextView
+                    android:id="@+id/txt_cons_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/SIZE_5"
+                    android:layout_weight="1"
+                    android:padding="@dimen/SIZE_5"
+                    android:text="con2222"
+                    android:textColor="@color/monsoon"
+                    android:textSize="@dimen/TEXT_SIZE_14" />
+                <TextView
+                    android:id="@+id/txt_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/SIZE_5"
+                    android:text="@string/rate"
+                    android:textColor="@color/oil"
+                    android:textSize="@dimen/TEXT_SIZE_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/SIZE_5"
+                    android:text="@string/mobile_no"
+                    android:textColor="@color/oil"
+                    android:textSize="@dimen/TEXT_SIZE_14" />
+
+                <TextView
+                    android:id="@+id/txt_mobile_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/SIZE_5"
+                    android:layout_weight="1"
+                    android:text="32165498870"
+                    android:padding="@dimen/SIZE_5"
+                    android:textColor="@color/monsoon"
+                    android:textSize="@dimen/TEXT_SIZE_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/SIZE_5"
+                    android:text="@string/start_time"
+                    android:textColor="@color/oil"
+                    android:textSize="@dimen/TEXT_SIZE_14" />
+
+                <TextView
+                    android:id="@+id/txt_start_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/SIZE_5"
+                    android:layout_weight="1"
+                    android:padding="@dimen/SIZE_5"
+                    android:text="2017-11-1 23:59:59"
+                    android:textColor="@color/monsoon"
+                    android:textSize="@dimen/TEXT_SIZE_14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/SIZE_5"
+                    android:text="@string/end_time"
+                    android:textColor="@color/oil"
+                    android:textSize="@dimen/TEXT_SIZE_14" />
+
+                <TextView
+                    android:id="@+id/txt_end_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/SIZE_5"
+                    android:layout_weight="1"
+                    android:padding="@dimen/SIZE_5"
+                    android:text="2017-11-2 22:00:00"
+                    android:textColor="@color/monsoon"
+                    android:textSize="@dimen/TEXT_SIZE_14" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
